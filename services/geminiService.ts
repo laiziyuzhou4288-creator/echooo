@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Message, TarotCard } from '../types';
 import { SENSORY_TASKS } from '../constants';
 
-const apiKey = import.meta.env.GEMINI_API_KEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const MODEL_NAME = 'gemini-3-flash-preview';
 
 // Updated logic: Deep Narrative Therapy Guide & Evasion Handling
